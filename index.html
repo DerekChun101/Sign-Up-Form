@@ -7,6 +7,11 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="image-sidebar">
+        <div class="logo-background">
+            <h1>ODIN</h1>
+        </div>
+    </div>
     <div class="main">
         <p>
             This is not a real online service! You know you need something like this in your life to help
@@ -15,26 +20,26 @@
         <p>
             You <em>know</em> you want to.
         </p>
+        <form>
+            <div class="input-form">
+                <h3>Let's do this!</h3>
+                <label for="firstName">FIRST NAME</label>
+                <input type="text" id="firstName" name="firstName" class="textInput">
+                <label for="lastName">LAST NAME</label>
+                <input type="text" id="lastName" name="lastName" class="textInput">
+                <label for="userEmail">EMAIL</label>
+                <input type="email" id="userEmail" class="textInput" name="userEmail">
+                <label for="phoneNumber">PHONE NUMBER</label>
+                <input type="tel" id="phoneNumber" name="phoneNumber" class="textInput">
+                <label for="pw">PASSWORD</label>
+                <input type="password" name="pw" id="pw" class="textInput">
+                <label for="confirmPW">CONFIRM PASSWORD</label>
+                <input type="password" name="confirmPW" id="confirmPW" class="textInput">
+            </div>
+            <div class="sumbit-form">
+                <button type="submit">Create Account</button>
+            </div>
+        </form>
     </div>
-    <form>
-        <div class="input-form">
-            <h3>Let's do this!</h3>
-            <label for="firstName">FIRST NAME</label>
-            <input type="text" id="firstName" name="firstName" class="textInput">
-            <label for="lastName">LAST NAME</label>
-            <input type="text" id="lastName" name="lastName" class="textInput">
-            <label for="userEmail">EMAIL</label>
-            <input type="email" id="userEmail" class="textInput" name="userEmail">
-            <label for="phoneNumber">PHONE NUMBER</label>
-            <input type="tel" id="phoneNumber" name="phoneNumber" class="textInput">
-            <label for="pw">PASSWORD</label>
-            <input type="password" name="pw" id="pw" class="textInput">
-            <label for="confirmPW">CONFIRM PASSWORD</label>
-            <input type="password" name="confirmPW" id="confirmPW" class="textInput">
-        </div>
-        <div class="sumbit-form">
-            <button type="submit">Create Account</button>
-        </div>
-    </form>
 </body>
 </html>

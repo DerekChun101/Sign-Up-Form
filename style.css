@@ -4,8 +4,17 @@
 }
 
 
-input {
-    border: 2px solid black;
-
+body{
+    display: flex;
+    justify-content: space-between;
 }
 
+
+.img-sidebar {
+    min-width: 30%;
+    background-image: url(images/pexels-krivec-ales-547114.jpg);
+}
+.main {
+    max-width: 70%;
+    height: auto;
+}
