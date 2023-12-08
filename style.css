@@ -2,19 +2,32 @@
     font-family: Norse-Bold;
     src: url(Norse-Bold.otf);
 }
-
+:root {
+    --input-border-color: #E5E7EB;
+}
 
 body{
+    min-width: 100vw;
     display: flex;
     justify-content: space-between;
 }
 
 
-.img-sidebar {
-    min-width: 30%;
-    background-image: url(images/pexels-krivec-ales-547114.jpg);
+.image-sidebar {
+    min-width: 30vw;
+    min-height: 100vh;
+    background-image: url(images/photo-1585202900225-6d3ac20a6962.avif);
+    background-size: 100% 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+.logo-background {
+    color: white;
+    position: absolute;
 }
 .main {
-    max-width: 70%;
+    max-width: 70vw;
     height: auto;
+
 }
