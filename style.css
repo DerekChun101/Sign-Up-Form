@@ -43,9 +43,10 @@ body{
 }
 .logo-background img {
     height: 150px;
+    
 }
 .main {
-    max-width: 70vw;
+    width: 70vw;
     height: auto;
     background-color: whitesmoke;
     
@@ -97,6 +98,9 @@ input:focus {
     border:1px solid blue;
     box-shadow: 2px 3px rgb(0,0,0, 0.2);
     outline: none;
+}
+input.submitted {
+    border:1px solid red;
 }
 
 .submit-form {
