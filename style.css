@@ -57,3 +57,24 @@ body{
     margin-left: 5%;
     margin-right: 5%;
 }
+
+form {
+    background-color: white;
+}
+.input-form {
+    margin: 5%;
+}
+.form-header {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 1vh;
+}
+
+.form-row {
+    display: flex;
+    gap: 30px;
+}
+.input {
+    display: flex;
+    flex-direction: column;
+}
