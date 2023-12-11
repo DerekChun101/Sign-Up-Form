@@ -99,7 +99,7 @@ input:focus {
     box-shadow: 2px 3px rgb(0,0,0, 0.2);
     outline: none;
 }
-input.submitted {
+input.error {
     border:1px solid red;
 }
 
