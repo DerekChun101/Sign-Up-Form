@@ -15,7 +15,7 @@ body{
 
 
 .image-sidebar {
-    min-width: 30vw;
+    min-width: 35vw;
     min-height: 100vh;
     background-image: url(images/photo-1585202900225-6d3ac20a6962.avif);
     background-size: 100% 100vh;
@@ -58,11 +58,10 @@ body{
     margin-right: 5%;
 }
 
-form {
-    background-color: white;
-}
+
 .input-form {
-    margin: 5%;
+    background-color: white;
+    padding: 2% 5%;
 }
 .form-header {
     font-size: 30px;
@@ -72,9 +71,23 @@ form {
 
 .form-row {
     display: flex;
-    gap: 30px;
+    gap: 100px;
+    margin-bottom: 3vh;
+    
 }
 .input {
     display: flex;
     flex-direction: column;
+    font-size: 15px;
+    gap: 1px;
+}
+
+input {
+    border: 1px solid var(--input-border-color);
+    border-radius: 3px;
+    padding: 5px;
+}
+
+.submit-form {
+    
 }
